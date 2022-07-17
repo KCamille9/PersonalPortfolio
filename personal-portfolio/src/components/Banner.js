@@ -1,4 +1,7 @@
-import { Container, Row, Col } from "react-bootstrap"
+import { Container, Row, Col } from "react-bootstrap";
+import { ArrowRightCircle } from "react-bootstrap-icons";
+import headerImg from "../assets/img/headerImg.svg";
+
 
 export const Banner = () => {
     return (
@@ -12,7 +15,11 @@ export const Banner = () => {
                             impsuem stuffimpsuem stuffimpsuem stuffimpsuem stuffimpsuem stuffimpsuem stuffimpsuem stuff
                             impsuem stuffimpsuem stuffimpsuem stuffimpsuem stuffimpsuem stuffimpsuem stuffv
                         </p>
-                        <button onClick={() => console.log('connect')}>Let's connect</button>
+                        <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25}/></button>
+                    </Col>
+
+                    <Col xs={12} md={6} xl={5}>
+                        <img src={''} alt="Header img"/>
                     </Col>
                 </Row>
 
